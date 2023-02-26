@@ -15,7 +15,7 @@ SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(statusBarColor:Colors.
   return MaterialApp(
 
     debugShowCheckedModeBanner: false,
-    title: 'You',
+    title: 'You-Do',
     home: Home(),
   );
   }
