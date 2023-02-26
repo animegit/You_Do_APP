@@ -117,9 +117,11 @@ void deletetodo(String id){
 }
 
 void add(String todo){
+  if(todo.isNotEmpty){
 setState(() {
   todoList.add(ToDo(id: DateTime.now().millisecondsSinceEpoch.toString(), todoText: todo));
-});
+});}
+
 tocont.clear();
 }
 

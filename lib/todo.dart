@@ -10,7 +10,7 @@ final delete;
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: EdgeInsets.only(bottom: 20,top: 50),
+      margin: EdgeInsets.only(bottom: 5,top: 10),
       child: ListTile(
       onTap: (){
 ontodochange(todo);
